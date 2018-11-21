@@ -89,10 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c662b26adbcd144e9d2a4e254064a60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 0, y: 0, z: 0}
-  spawn: {x: 0, y: 0, z: 0}
-  fireRate: 0
-  CircleShot: {fileID: 0}
+  speed: {x: 2, y: 0, z: 0}
 --- !u!212 &212288620535476756
 SpriteRenderer:
   m_ObjectHideFlags: 1
