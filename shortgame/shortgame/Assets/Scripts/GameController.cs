@@ -29,7 +29,7 @@ public class GameController : MonoBehaviour {
             playerDies();
             playerDiedAck = true;
         }
-        if (Input.GetKey(KeyCode.R))
+        if (Input.GetKey(KeyCode.R) && playerDied)
         {
             Application.LoadLevel(Application.loadedLevel);
         }
